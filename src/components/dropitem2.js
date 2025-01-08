@@ -53,5 +53,7 @@ const DroppedItem = ({ name, x, y }) => {
 
 
 
+
+
 }
 export default DroppedItem
