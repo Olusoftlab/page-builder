@@ -21,6 +21,9 @@ const App = () => {
 
 
 
+
+
+
   const handleDragEnd = (e) => {
 
 
@@ -46,7 +49,7 @@ const App = () => {
 
 
 
-  return <DndContext sensors={sensors} onDragEnd={handleDragEnd}   >
+  return <DndContext sensors={sensors} onDragEnd={handleDragEnd}       >
 
     <div className="grid"  >
 
