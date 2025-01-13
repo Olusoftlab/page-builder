@@ -75,13 +75,13 @@
     background-color: rgb(2, 2, 26);
     color:white;
     text-align: center;
-    padding-top: 5px;
+    position:absolute;
 }
 
 
 .navbar-1{
 
-
+        position:absolute; 
         height: 80px;
         width: 100%;
         background-color: rgb(2, 2, 26);
@@ -93,7 +93,7 @@
 }
 
 .navbar-2{
-
+        
         height: 80px;
         width: 100%;
         background-color: rgb(2, 2, 26);
@@ -104,15 +104,50 @@
 }
 
 .navbar-3{
-
+        position:absolute;
         height: 80px;
         width: 100%;
         background-color: rgb(2, 2, 26);
         color: white;
         text-align: center;
-        padding-top: 5px;
+    
 
 }
+
+
+.overlay{
+
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;  
+     width:150px;
+     height:150px;
+     background-color: gray;
+
+}
+
+
+.tiles{
+
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 233, 233);
+    opacity:0.4;
+}
+
+
+.arrange{
+
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+}
+
 
 
 /*mobile*/
@@ -120,6 +155,19 @@
 
 @media only screen and (max-width:480px){
 
+    .overlay{
+
+        width:90px;
+        height:90px;
+        font-size: 6px;
+    }  
+
+    .overlay h2{
+
+       width:50px;
+
+    }
+ 
 
     .back{
 
@@ -142,6 +190,10 @@
          flex-direction: column;
          margin:5px;
      }
+
+
+
+
 
 
 

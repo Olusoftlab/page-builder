@@ -9,7 +9,10 @@ const DraggableThird = () => {
         id: 3,
         data: {
             type: "type-3",
-            name: "Footer"
+            name: "Footer",
+            info: "place this at the bottom",
+            position: "bottom"
+
         }
     })
 

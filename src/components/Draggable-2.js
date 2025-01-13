@@ -9,7 +9,9 @@ const DraggableSecond = () => {
         id: 2,
         data: {
             type: "type-2",
-            name: "Hero-section"
+            name: "Hero-section",
+            info: "place this at the middle"
+
         }
     })
 

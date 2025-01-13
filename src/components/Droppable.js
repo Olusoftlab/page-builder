@@ -6,15 +6,24 @@ const Droppable = (props) => {
     const { setNodeRef } = useDroppable({
         id: "droppable",
         data: {
-            accepts: ["type-1", "type-2", "type-3"]
+            accepts: ["type-1", "type-2", "type-3"],
+            positions: ["top", "middle", "bottom"]
         }
 
     })
 
 
+
+
+
+
+
+
+
+
     return (
 
-        <div ref={setNodeRef} className="canva"    >
+        <div ref={setNodeRef} className="canva" id="droppable"   >
 
 
             {props.children}

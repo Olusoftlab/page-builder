@@ -9,7 +9,10 @@ const DraggableFirst = () => {
         id: 1,
         data: {
             type: "type-1",
-            name: "Navbar"
+            name: "Navbar",
+            info: "place this at the top",
+            position: "top"
+
         }
     })
 
