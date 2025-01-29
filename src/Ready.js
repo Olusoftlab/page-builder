@@ -24,7 +24,7 @@ const Ready = () => {
 
                     <select className=' w-1/2  sm: sm:border font-semibold outline-none sm:w-3/4 ' name={"select"}     >
 
-                        <option selected className='bg-gray-400 text-white' disabled   >Select Resoluution</option>
+                        <option selected className='bg-gray-400 text-white'    >Select Resoluution</option>
                         <optgroup label="Mobile Resolutions" >
                             <option value={"Iphone-4"}  >320 X 480 - Iphone 4</option>
                             <option value={"iphone 5/SE"}  >320 X 568 -iPhone 5/SE </option>
