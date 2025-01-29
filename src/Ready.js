@@ -5,9 +5,9 @@ const Ready = () => {
 
     return (
 
-        <div >
+        <div className='pl-0'   >
 
-            <header className='flex flex-row text-xs items-center justify-between font-medium pl-0 h-16 pr-0  bg-gray-200 sm: sm:flex-row sm:text-base sm:pl-6 sm:pr-0 '>
+            <header className='flex flex-row text-xs items-center justify-between font-medium pl-2 h-16 pr-0  bg-gray-200 sm: sm:flex-row sm:text-base sm:pl-6 sm:pr-0 '>
 
                 <div className=' gap-2  flex sm: flex-row   items-center sm:gap-4  '>
 
@@ -20,7 +20,7 @@ const Ready = () => {
                     <i className="fa fa-file"></i>
                 </div>
 
-                <div className='flex ml-12 gap-2 w-1/2 sm: flex-row items-center sm:gap-4 sm:ml-0 w- '>
+                <div className='flex ml-10 gap-2 w-1/2 sm: flex-row items-center sm:gap-4 sm:ml-0 w- '>
 
                     <select className=' w-1/2  sm: sm:border font-semibold outline-none sm:w-3/4 ' name={"select"}     >
 
